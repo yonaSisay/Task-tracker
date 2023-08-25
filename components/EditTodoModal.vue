@@ -7,7 +7,7 @@
 		></div>
 		<!-- Modal -->
 
-		<div class="bg-white w-1/2 flex flex-col gap-4 p-4 z-10 rounded-2xl">
+		<div class="bg-white w-1/2 flex flex-col gap-4 p-4 z-10 rounded-2xl shadow-xl">
 			<input
 				class="outline-blue-200 py-[10px] px-[14px] rounded-lg"
 				type="text"
@@ -29,7 +29,7 @@
 			</div>
 			<button
 				@click="closeModal"
-				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-lg text-white w-1/4 py-[8px] rounded-lg mx-auto outline-none"
+				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-lg text-white w-1/4 py-[8px] rounded-lg mx-auto outline-none shadow-xl"
 			>
 				Save
 			</button>

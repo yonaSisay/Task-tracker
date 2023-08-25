@@ -1,16 +1,16 @@
 <template>
 	<div
-		class="min-h-screen bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-[#333333]"
+		class="min-h-full bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-[#333333]"
 	>
 		<div class="fixed w-full top-0 flex justify-between bg-white h-[12vh]">
 			<h1 class="text-5xl text-blue-400 font-bold p-6 my-auto">Pro todo</h1>
 
-			<Search/>
+			<Search />
 
 			<button
-				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-white w-[7vw] h-[7vh] my-auto rounded-lg outline-none mr-4"
+				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-white w-[7vw] h-[7vh] my-auto rounded-lg outline-none mr-4 shadow-xl"
 			>
-				Login
+				Logout	
 			</button>
 			
 		</div>

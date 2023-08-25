@@ -1,5 +1,5 @@
 <template>
-	<!-- <div>
+	<div>
 		<div class="w-full flex justify-center" v-for="val in data.todos">
 			<TodoCard
 				:name="val.title"
@@ -7,7 +7,7 @@
 				:status="val.status"
 			/>
 		</div>
-	</div> -->
+	</div>
 </template>
 
 <!-- <script setup>

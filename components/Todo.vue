@@ -1,18 +1,18 @@
 <template>
-	<div class="w-[25vw] h-auto bg-[#FFFFFF] rounded-2xl p-4 m-4">
+	<div class="w-[25vw] h-auto bg-[#FFFFFF] rounded-2xl p-4 m-4 shadow-xl">
 		<h1 class="text-2xl font-bold">{{ name }}</h1>
-		<p class="text-lg-300 ">
+		<p class="text-lg-250">
 			{{ description }}
 		</p>
 		<div class="flex gap-4 mt-16">
 			<button
 				@click="openEditModal"
-				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-white w-1/3 py-[8px] rounded-lg mx-auto outline-none"
+				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-white w-1/3 py-[8px] rounded-lg mx-auto outline-none shadow-xl"
 			>
 				Edit
 			</button>
 			<button
-				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-white w-1/3 py-[8px] rounded-lg mx-auto outline-none"
+				class="bg-gradient-to-b from-[#74B9FF] to-[#0984E3] text-white w-1/3 py-[8px] rounded-lg mx-auto outline-none shadow-xl"
 			>
 				Delete
 			</button>
